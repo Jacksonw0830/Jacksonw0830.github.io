@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Ciel Privacy Policy</title>
+  <style>
+    body { max-width: 48rem; margin: 4rem auto; padding: 0 1.25rem; font: 16px/1.6 system-ui, sans-serif; color: #202124; }
+    h2 { margin-top: 2rem; }
+    a { color: #1457a6; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Ciel Privacy Policy</h1>
+    <p>Ciel is a private personal AI assistant operated solely by its owner. It is not a public or multi-user service.</p>
+
+    <h2>Google data accessed</h2>
+    <p>Ciel requests the Gmail read-only scope. Its Alcyone worker reads Gmail profile and history information and selected message metadata, including message and thread identifiers, labels, dates, and selected email headers. It does not request permission to send, modify, or delete Gmail messages. The current worker does not retrieve or persist email bodies or attachment bodies.</p>
+
+    <h2>How data is used</h2>
+    <p>The worker uses this information only to detect new mail, classify its relevance and urgency, maintain processing state, and prepare personal intelligence notifications for the owner.</p>
+
+    <h2>Local storage</h2>
+    <p>OAuth credentials and operational records are stored on the owner's local system with restricted file permissions. Operational records can include Gmail message and thread identifiers, labels, dates, selected headers, classifications, processing checkpoints, delivery state, and telemetry. No automated retention period is currently defined; these local records remain until the owner deletes them.</p>
+
+    <h2>Model-provider processing</h2>
+    <p>When semantic interpretation is required, selected Gmail metadata and internal processing context are sent to Ciel's configured AI model provider. Email and attachment bodies are not included because the current worker does not retrieve them. Provider-side processing and retention are governed by the provider account and applicable provider terms. The exact provider-side retention setting for this deployment must be reviewed before Google Cloud publishing.</p>
+
+    <h2>Discord notifications</h2>
+    <p>When Ciel's policy determines that the owner should be notified, it may send a generated intelligence summary to a private, pre-authorized Discord destination. A notification can contain facts or conclusions derived from the selected metadata, along with internal record identifiers; it does not contain an email or attachment body retrieved by Ciel. Discord processes delivered notifications under its own terms and privacy practices.</p>
+
+    <h2>Sharing and sale</h2>
+    <p>Ciel does not sell Google user data. Data is disclosed only as described above to the configured AI model provider and, for authorized notifications, Discord. It is not used for advertising.</p>
+
+    <h2>Retention, deletion, and revocation</h2>
+    <p>The owner can delete Ciel's local OAuth credentials and operational records from the local system. Discord notifications must be deleted through Discord. Provider-side deletion, if required, is subject to the configured provider's controls and terms. Gmail authorization can be revoked at any time from the Google Account's third-party access settings; revocation stops future Gmail access but does not automatically delete previously stored local records or notifications.</p>
+
+    <h2>Limited use</h2>
+    <p>Ciel's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy" rel="noopener noreferrer">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+    <p><a href="/ciel/">Return to the Ciel homepage</a></p>
+  </main>
+</body>
+</html>
